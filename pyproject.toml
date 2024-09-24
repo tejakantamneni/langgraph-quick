@@ -1,0 +1,13 @@
+[project]
+name = "langgraph-quick"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-anthropic>=0.2.1",
+    "langgraph>=0.2.26",
+    "langsmith>=0.1.125",
+    "python-dotenv>=1.0.1",
+    "typing-extensions>=4.12.2",
+]
