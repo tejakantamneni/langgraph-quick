@@ -1,16 +1,14 @@
 from dotenv import load_dotenv
 from typing import Annotated
 from typing_extensions import TypedDict
-from typing import Literal
 
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import StateGraph, START
 from langgraph.graph.message import add_messages
 
 from langgraph.prebuilt import ToolNode, tools_condition
 from langchain_anthropic import ChatAnthropic
 
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_core.messages import ToolMessage
 
 from langchain_core.messages import BaseMessage
 
